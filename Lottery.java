@@ -5,7 +5,7 @@ public class Lottery {
         java.util.Scanner scanner = new Scanner(System.in);
         System.out.println("Mời bạn nhập số: ");
         int number = scanner.nextInt();
-        int random = (int) Math.round(Math.random() * 100);
+        int random = (int) Math.round(Math.random() * 10);
         System.out.println("Số may mắn là :" + random);
 //        int random = 56;
 
